@@ -1,0 +1,33 @@
+{
+  "name": "browser-remove-resource",
+  "version": "1.0.0",
+  "description": "It can remove resources",
+  "private": true,
+  "scripts": {
+    "build": "gulp",
+    "lint": "eslint src",
+    "prettier": "prettier --write src",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsweibo/browser-remove-resource.git"
+  },
+  "keywords": [
+    "browser-remove-resource"
+  ],
+  "author": "jsweibo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsweibo/browser-remove-resource/issues"
+  },
+  "homepage": "https://github.com/jsweibo/browser-remove-resource#readme",
+  "devDependencies": {
+    "delete": "^1.1.0",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "gulp": "^4.0.2",
+    "prettier": "^2.8.8"
+  }
+}
